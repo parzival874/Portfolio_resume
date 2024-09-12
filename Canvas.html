@@ -56,12 +56,12 @@
         // Draw the pockets (circles)
         const pocketRadius = 20;
         const pocketPositions = [
-            { x: 75, y: 75 },     // Top-left
-            { x: 525, y: 75 },    // Top-right
+            { x: 75, y: 75 },     // Top-left (left side)
+            { x: 75, y: 400 },    // Middle-left (center left)
             { x: 75, y: 725 },    // Bottom-left
-            { x: 525, y: 725 },   // Bottom-right
-            { x: 300, y: 75 },    // Top-middle
-            { x: 300, y: 725 }    // Bottom-middle
+            { x: 525, y: 75 },    // Top-right (right side)
+            { x: 525, y: 400 },   // Middle-right (center right)
+            { x: 525, y: 725 }    // Bottom-right
         ];
         
         ctx.fillStyle = '#000';
